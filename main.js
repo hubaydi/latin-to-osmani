@@ -13,8 +13,8 @@ const osmanya = [
 
 sumbitBtn.addEventListener('click', () => {
   p.innerHTML = '';
-  const value = textarea.value.split('');
-  console.log(value)
+  const value = textarea.value.toLowerCase().split('');
+  // console.log(value)
   for (let i = 0; i < value.length; i++) {
     let char = value[i];
 
