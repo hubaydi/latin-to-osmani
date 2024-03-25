@@ -61,7 +61,7 @@ textarea {
   position: fixed;
   height: 64px;
   max-height: 150px;
-  padding: 16px 20px 14px;
+  padding: 16px 60px 14px 20px;
   font-size: 16px;
   background-color: #1e2a47;
   border-radius: calc(64px / 2);
