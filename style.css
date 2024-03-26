@@ -25,14 +25,14 @@ body {
 }
 .container {
   width: 700px;
-  padding: 20px;
+  padding: 20px 0;
   margin: 0 auto;
   position: relative;
   transition: 0.3s;
 }
 @media (max-width: 767px) {
   .container {
-    width: 350px;
+    width: 90%;
   }
 }
 h3 {
@@ -43,7 +43,7 @@ h3 {
 p {
   margin: auto;
   color: white;
-  padding: 10px;
+  padding: 16px;
   margin-bottom: 200px;
   background-color: #1e2a47;
   width: 100%;
@@ -56,12 +56,12 @@ p {
   }
 }
 textarea {
-  width: 650px;
+  width: 700px;
   color: white;
   position: fixed;
   height: 64px;
   max-height: 150px;
-  padding: 16px 60px 14px 20px;
+  padding: 16px 75px 14px 20px;
   font-size: 16px;
   background-color: #1e2a47;
   border-radius: calc(64px / 2);
@@ -74,7 +74,7 @@ textarea {
 }
 @media (max-width: 767px) {
   textarea {
-    width: 310px;
+    width: 90%;
     max-height: 100px;
   }
 }
@@ -98,11 +98,12 @@ input[type='submit'] {
   bottom: 36px;
   margin-left: auto;
   display: block;
-  transform: translatex(555px);
+  transform: translate(605px, -0.5px)
 }
 @media (max-width: 767px) {
   input[type='submit'] {
-    transform: translateX(222px);
+    transform: translate(0, 0.5px);
+    right: 10%;
     bottom: 37px;
     }
 }
