@@ -7,7 +7,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Cairo", sans-serif;
+  font-family: "Space Mono", monospace;
   background-color: #141d2f;
 }
 ::-webkit-scrollbar {
@@ -77,6 +77,15 @@ textarea {
     width: 90%;
     max-height: 100px;
   }
+  textarea::placeholder {
+    font-size: 14px;
+  }
+}
+textarea::placeholder {
+  color: #aaa;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  font-family: "Space Mono", monospace;
 }
 textarea::-webkit-scrollbar {
   width: 10px;
