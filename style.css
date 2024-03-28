@@ -107,7 +107,8 @@ input[type='submit'] {
   bottom: 36px;
   margin-left: auto;
   display: block;
-  transform: translate(605px, -0.5px)
+  transform: translate(605px, -0.5px);
+  cursor: pointer;
 }
 @media (max-width: 767px) {
   input[type='submit'] {
