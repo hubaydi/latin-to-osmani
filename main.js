@@ -1,4 +1,4 @@
-const p = document.querySelector('p');
+/* const p = document.querySelector('p');
 const textarea = document.querySelector('textarea');
 const sumbitBtn = document.querySelector('input[type="submit"]');
 
@@ -51,4 +51,4 @@ textarea.addEventListener('input', (e) => {
   let scHeight = e.target.scrollHeight;
   textarea.style.height = `${scHeight}px`;
 })
-
+*/
